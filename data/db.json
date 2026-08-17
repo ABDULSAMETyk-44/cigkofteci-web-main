@@ -1,0 +1,320 @@
+{
+  "orders": [
+    {
+      "id": "ed258d78-f511-4ca8-b8fd-5847a851b673",
+      "customerName": "sdh",
+      "phone": "sgd",
+      "address": "sgd",
+      "notes": "khjgfdad",
+      "items": [
+        {
+          "name": "Çiğköfte Tabağı",
+          "unitPrice": 175,
+          "quantity": 1
+        }
+      ],
+      "total": 175,
+      "paymentMethod": "Kapıda Nakit",
+      "status": "teslim-edildi",
+      "createdAt": "2026-08-16T17:20:48.623Z",
+      "updatedAt": "2026-08-16T17:22:03.879Z"
+    },
+    {
+      "id": "818d9bc2-a67d-48e9-b1e1-1d7fe19d4eec",
+      "customerName": "11",
+      "phone": "22",
+      "address": "aa",
+      "notes": "",
+      "items": [
+        {
+          "name": "Çiğköfte Tabağı",
+          "unitPrice": 175,
+          "quantity": 1
+        }
+      ],
+      "total": 175,
+      "paymentMethod": "Kapıda Nakit",
+      "status": "hazirlaniyor",
+      "createdAt": "2026-08-16T09:46:11.407Z",
+      "updatedAt": "2026-08-16T09:46:53.495Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "bd6f6643-ac18-4ae1-9391-51811d99f71e",
+      "name": "Abdulsamet Yalçınkaya",
+      "email": "asyk21577@gmail.com",
+      "phone": "444444",
+      "subject": "sikayet",
+      "message": "dürüm gelmedi",
+      "status": "yanitlandi",
+      "createdAt": "2026-08-16T17:24:24.905Z"
+    }
+  ],
+  "franchiseApplications": [
+    {
+      "id": "16e69bbe-354f-44ec-a05c-4357677178b5",
+      "name": "Abdulsamet Yalçınkaya",
+      "email": "asyk21577@gmail.com",
+      "phone": "346346",
+      "city": "malatya",
+      "investmentBudget": "250.000₺ - 500.000₺",
+      "experience": "Gıda sektöründe deneyimim yok",
+      "message": "gjfghfsdhs",
+      "status": "yeni",
+      "createdAt": "2026-08-16T17:22:40.350Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "4025ae5a-5ae4-43a7-8667-e43d8394a38a",
+      "type": "mesaj",
+      "refId": "bd6f6643-ac18-4ae1-9391-51811d99f71e",
+      "title": "Yeni İletişim Mesajı",
+      "message": "Abdulsamet Yalçınkaya: \"sikayet\" konulu yeni bir mesaj gönderdi.",
+      "isRead": false,
+      "createdAt": "2026-08-16T17:24:24.923Z"
+    },
+    {
+      "id": "687fd3a1-9149-4a17-82c9-8e290eabebbe",
+      "type": "bayilik",
+      "refId": "16e69bbe-354f-44ec-a05c-4357677178b5",
+      "title": "Yeni Bayilik Başvurusu",
+      "message": "Abdulsamet Yalçınkaya (malatya) bayilik başvurusunda bulundu.",
+      "isRead": true,
+      "createdAt": "2026-08-16T17:22:40.366Z"
+    },
+    {
+      "id": "fe8ef2a1-8119-42ab-99be-bf54dbaddccb",
+      "type": "siparis",
+      "refId": "ed258d78-f511-4ca8-b8fd-5847a851b673",
+      "title": "Yeni Sipariş Alındı",
+      "message": "sdh adlı müşteri 175.00₺ tutarında sipariş verdi.",
+      "isRead": true,
+      "createdAt": "2026-08-16T17:20:48.724Z"
+    },
+    {
+      "id": "009f7128-3f7a-4851-b500-481ea942ed2d",
+      "type": "siparis",
+      "refId": "818d9bc2-a67d-48e9-b1e1-1d7fe19d4eec",
+      "title": "Yeni Sipariş Alındı",
+      "message": "11 adlı müşteri 175.00₺ tutarında sipariş verdi.",
+      "isRead": true,
+      "createdAt": "2026-08-16T09:46:11.476Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "seed-0-cigkofte",
+      "name": "Klasik Çiğköfte",
+      "description": "Geleneksel tarifimizle hazırlanmış (Porsiyon)",
+      "price": 100,
+      "categoryKey": "cigkofte",
+      "imageUrl": "",
+      "emoji": "🌯",
+      "isActive": true,
+      "isPopular": true,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-1-cigkofte",
+      "name": "Acılı Çiğköfte",
+      "description": "Acı sevenler için özel (Porsiyon)",
+      "price": 100,
+      "categoryKey": "cigkofte",
+      "imageUrl": "",
+      "emoji": "🔥",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-2-cigkofte",
+      "name": "Özel Çiğköfte",
+      "description": "Ekstra baharatlı ve lezzetli (Porsiyon)",
+      "price": 155,
+      "categoryKey": "cigkofte",
+      "imageUrl": "",
+      "emoji": "⭐",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-3-cigkofte",
+      "name": "Çiğköfte Tabağı",
+      "description": "Salata ve garnitürlerle",
+      "price": 175,
+      "categoryKey": "cigkofte",
+      "imageUrl": "/api/uploads/products/b4eaa536-cd14-47d3-b0b6-b0c03ff4559a.jpg",
+      "emoji": "🍽️",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:44:57.818Z"
+    },
+    {
+      "id": "seed-4-durum",
+      "name": "Çiğköfte Dürüm",
+      "description": "Lavaşta çiğköfte",
+      "price": 100,
+      "categoryKey": "durum",
+      "imageUrl": "",
+      "emoji": "🥙",
+      "isActive": true,
+      "isPopular": true,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-5-durum",
+      "name": "Özel Dürüm",
+      "description": "Ekstra malzemeli",
+      "price": 120,
+      "categoryKey": "durum",
+      "imageUrl": "",
+      "emoji": "✨",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-6-durum",
+      "name": "İkili Dürüm",
+      "description": "2 adet dürüm",
+      "price": 175,
+      "categoryKey": "durum",
+      "imageUrl": "",
+      "emoji": "🎁",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-7-icecek",
+      "name": "Ayran",
+      "description": "Taze ayran",
+      "price": 20,
+      "categoryKey": "icecek",
+      "imageUrl": "",
+      "emoji": "🥛",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-8-icecek",
+      "name": "Şalgam",
+      "description": "Acı/Acısız",
+      "price": 30,
+      "categoryKey": "icecek",
+      "imageUrl": "",
+      "emoji": "🍷",
+      "isActive": true,
+      "isPopular": true,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-9-icecek",
+      "name": "Coca Cola",
+      "description": "330ml",
+      "price": 55,
+      "categoryKey": "icecek",
+      "imageUrl": "",
+      "emoji": "🥤",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-10-icecek",
+      "name": "Limonata",
+      "description": "Ev yapımı",
+      "price": 20,
+      "categoryKey": "icecek",
+      "imageUrl": "",
+      "emoji": "🍋",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-11-yan",
+      "name": "Patates Kızartması",
+      "description": "Çıtır patates",
+      "price": 45,
+      "categoryKey": "yan",
+      "imageUrl": "",
+      "emoji": "🍟",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-12-yan",
+      "name": "Soğan Halkası",
+      "description": "Kızarmış soğan halkası",
+      "price": 40,
+      "categoryKey": "yan",
+      "imageUrl": "",
+      "emoji": "🧅",
+      "isActive": true,
+      "isPopular": false,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    },
+    {
+      "id": "seed-13-yan",
+      "name": "Atom",
+      "description": "Acılı közlenmiş biber",
+      "price": 55,
+      "categoryKey": "yan",
+      "imageUrl": "",
+      "emoji": "🌶️",
+      "isActive": true,
+      "isPopular": true,
+      "createdAt": "2026-08-16T09:41:57.326Z",
+      "updatedAt": "2026-08-16T09:41:57.326Z"
+    }
+  ],
+  "settings": {
+    "phone": "0850 123 45 67",
+    "whatsapp": "",
+    "email": "info@cigkofte.com",
+    "address": "Malatya, Türkiye",
+    "city": "Malatya",
+    "instagramUrl": "",
+    "facebookUrl": "",
+    "twitterUrl": "",
+    "workingHoursWeekday": "10:00 - 22:00",
+    "workingHoursSaturday": "10:00 - 23:00",
+    "workingHoursSunday": "11:00 - 22:00",
+    "logoUrl": "/api/uploads/site/9b8cc7cf-f3ec-406e-b6d3-005158c55781.jpg",
+    "heroImageUrl": "/api/uploads/site/1d6007b2-48b5-4b26-b6a8-68ee57edb30c.jpg",
+    "heroTitleLine1": "En Taze",
+    "heroTitleLine2": "Çiğköfte",
+    "heroSubtitle": "Geleneksel lezzetin modern adresi. Her lokmada taze, doğal ve sağlıklı malzemeler.",
+    "deliveryTimeText": "30 dakika",
+    "minOrderTotal": 30,
+    "freeDeliveryThreshold": 100,
+    "updatedAt": "2026-08-16T09:45:39.698Z"
+  },
+  "admins": [
+    {
+      "id": "admin-1",
+      "email": "admin@adiyamancigkofte.com",
+      "passwordHash": "$2b$10$WB5YaiLZuVDdr68IGoPpWOGY3Zhj./GQap82zxdt0OQzIHHd91pzq",
+      "name": "Site Yöneticisi"
+    }
+  ]
+}
